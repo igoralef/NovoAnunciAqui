@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+		<head> 
+			<title>Anunciar</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<script src="http://code.jquery.com/jquery-latest.js"></script>
+			<script src="js/bootstrap.js"></script>
+		
+		</head>
+		<body id="back">
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<nav class="navbar navbar-default" role="navigation">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<a class="navbar-brand" href="index.html">
+									<img alt="Brand" src="imagens/logo.png">
+									</a>
+								</div>
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a  href="produtos.html">Produtos</a></li>
+										<li class="dropdown">
+								          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nome do usuário <span class="caret"></span></a>
+								          <ul class="dropdown-menu" role="menu">
+								            <li><a href="paginadousuario.html">Minha Conta</a></li>
+								            <li class="divider"></li>
+								            <li><a href="index.html">Sair</a></li>
+								          </ul>
+								        </li>	
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->
+						</nav>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<div id="pag"><!-- tudo que estiver na pagina vai aqui dentro -->
+							<div  class="row">
+								<div class="col-md-1"></div>
+								<div class="col-md-10">
+									<div class="row">
+										<div class="col-md-1"></div>
+										<div class="col-md-10 ">
+												<center><h1>Anunciar</h1></center>
+												<div id="box">
+													<div class="row">
+														<div class="col-md-2"></div>
+														<div class="col-md-8">
+														<br>
+														<form role="form" method="post" action="teladepoisdeanunciar.html">
+																	<div class="form-group">
+																	    <label for="exampleInputFile">Escolha a foto</label>
+																	    <input type="file" id="exampleInputFile">
+																	    <p class="help-block">Escolha arquivos de imagem</p>
+																	  </div>
+																	  <div class="form-group">
+																		<label for="titulo">Titulo do anuncio :</label>
+																			<input type="text" class="form-control" placeholder="Ex : Bicicleta,moto..." name="titulo" required />
+																	  </div>
+																	  <div class="form-group">
+																		<label for="desc">Descrição:</label>
+																			<!-- <textarea name="texto"></textarea> -->
+																			<input type="text" class="form-control" placeholder="Descrição" name="descricao" required/>
+																	  </div>
+																	  <div class="form-group">
+																		<label for="preco">Preço :</label>
+																			<input type="text" class="form-control" placeholder="Ex : preço que deseja vender" name="preco" required />
+																	  </div>
+																	  <div class="form-group">
+																			<label for="categoria">Categoria</label>
+																			<select name="categoria" name="categoria" class="form-control">
+																				<optgroup label="Carro">
+																				  <option value="fiat">Fiat</option>
+																				  <option value="bmw">BMW</option>
+																				  <option value="chevrolet">Chevrolet</option>
+																				</optgroup>
+																				<optgroup label="Moto">
+																				  <option value="fiat">Honda</option>
+																				  <option value="bmw">Yamaha</option>
+																				  <option value="chevrolet">Shineray</option>
+																				</optgroup>
+																				<optgroup label="Televisao">
+																				  <option value="fiat">Sansung</option>
+																				  <option value="bmw">Semp toshiba</option>
+																				  <option value="chevrolet">LG</option>
+																				</optgroup>
+																			</select>
+																		  </div>
+																		  <button  type = "submit"  class = "btn btn-success btn-lg btn-block" name="anunciar"> Anunciar </button>
+																	</form>	<br>
+														</div>
+														<div class="col-md-2"></div>									
+													</div>
+												</div>
+											</div>
+										<div class="col-md-1"></div>
+									</div>
+
+								</div>
+
+								<div class="col-md-1"></div>	
+							</div>
+							<br>
+							<hr>
+							<footer class="footer">
+							    <div class="container">
+							    <p class="text-muted">
+							    	Design by Equipe AnunciAqui | &copy; 2014 Info4BV | <a href="http://www.ifrn.edu.br">IFRN</a>
+							    </p>
+							    </div>
+							</footer>							
+						</div><!-- tudo que estiver na pagina vai aqui dentro -->
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				</header>
+		</body>
+</html>

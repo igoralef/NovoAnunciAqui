@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+		<head> 
+			<title>Cadastro de usuario</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<script src="http://code.jquery.com/jquery-latest.js"></script>
+			<script src="js/bootstrap.js"></script>
+		
+		</head>
+		<body id="back">
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<nav class="navbar navbar-default" role="navigation">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<a class="navbar-brand" href="index.html">
+									<img alt="Brand" src="imagens/logo.png">
+									</a>
+								</div>
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a href="contato.html">Contato</a></li>
+										<li><a href="login.html">Entrar</a>
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->
+						</nav>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<div id="pag"><!-- tudo que estiver na pagina vai aqui dentro -->
+							<div  class="row">
+								<div class="col-md-1"></div>
+								<div class="col-md-10">
+									<div class="row">
+										<div class="col-md-1"></div>
+										<div class="col-md-10 ">
+												<center><h1>Cadastro de usuário</h1></center>
+												<div id="box">
+													<div class="row">
+														<div class="col-md-2"></div>
+														<div class="col-md-8">
+														<br>
+															<form role="form" method="post" action="paginadousuario.html">
+																<div class="form-group">
+																	<label for="nome">Nome:</label>
+																	<input type="text" class="form-control" placeholder="Digite seu nome completo" name="nome" required />
+																</div>
+																<div class="form-group">
+																	<label for="password">Senha:</label>
+																	<input type="password" class="form-control" placeholder="Digite sua senha" name="senha" required/>
+																</div>
+																<div class="form-group">
+																	<label for="password">Repita a senha:</label>
+																	<input type="password" class="form-control" placeholder="Digite a senha igual a de cima" name="senha" required/>
+																</div>
+																<div class="form-group">
+																	<label for="sexo">Sexo:</label><br>
+																	<input type="radio" name="sexo" value="Masculino" checked> Masculino 
+																	<input type="radio" name="sexo" value="Feminino"> Feminino	 <br>
+																</div>
+																<div class="form-group">
+																	<label for="email">E-mail:</label>
+																	<input type="email" class="form-control" placeholder="Digite seu email" name ="email" required/>
+																</div>
+																<div class="form-group">
+																	<label for="email">Repita o e-mail:</label>
+																	<input type="email" class="form-control" placeholder="Digite o e-mail igual ao de cima" name ="email" required/>
+																</div>
+																									  <!-- <button type="submit" class="btn btn-success">Cadastrar</button> -->
+																<button  type = "submit"  class = "btn btn-success btn-lg btn-block" name="cadastrar"> Cadastrar </button>
+															</form>
+															<br>
+														</div>
+														<div class="col-md-2"></div>									
+													</div>
+												</div>
+											</div>
+										<div class="col-md-1"></div>
+									</div>
+
+								</div>
+
+								<div class="col-md-1"></div>	
+							</div>
+							<br>
+							<hr>
+							<footer class="footer">
+							    <div class="container">
+							    <p class="text-muted">
+							    	Design by Equipe AnunciAqui | &copy; 2014 Info4BV | <a href="http://www.ifrn.edu.br">IFRN</a>
+							    </p>
+							    </div>
+							</footer>							
+						</div><!-- tudo que estiver na pagina vai aqui dentro -->
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+		</body>
+</html>
